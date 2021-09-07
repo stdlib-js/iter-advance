@@ -166,6 +166,21 @@ var len = iterLength( it2 );
 
 <!-- /.references -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/iter/head`][@stdlib/iter/head]: create an iterator which returns the first `n` values of a provided iterator.
+-   [`@stdlib/iter/slice`][@stdlib/iter/slice]: create an iterator which returns a subsequence of iterated values from a provided iterator.
+
+</section>
+
+<!-- /.related -->
+
 <!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
 
 
@@ -224,6 +239,14 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/iter-advance/main/LICENSE
 
 [mdn-iterator-protocol]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols#The_iterator_protocol
+
+<!-- <related-links> -->
+
+[@stdlib/iter/head]: https://github.com/stdlib-js/iter-head
+
+[@stdlib/iter/slice]: https://github.com/stdlib-js/iter-slice
+
+<!-- </related-links> -->
 
 </section>
 
