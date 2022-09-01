@@ -1,4 +1,4 @@
-/**
+/*
 * @license Apache-2.0
 *
 * Copyright (c) 2019 The Stdlib Authors.
@@ -16,16 +16,26 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 2.0
+
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@main/index.d.ts"/>
+
+import { Iterator } from '@stdlib/types/iter';
 
 /**
-* Advance an iterator.
+* Advances an iterator.
 *
-* @module @stdlib/iter-advance
+* ## Notes
+*
+* -   The function **eagerly** advances an input iterator `n` iterations or until the input iterator finishes, whichever comes first.
+*
+* @param iterator - input iterator
+* @param n - number of iterations (default: 1e308)
+* @throws `n` must be a nonnegative integer
+* @returns input iterator
 *
 * @example
-* var array2iterator = require( '@stdlib/array-to-iterator' );
-* var iterAdvance = require( '@stdlib/iter-advance' );
+* var array2iterator = require( `@stdlib/array/to-iterator` );
 *
 * var it1 = array2iterator( [ 0, 0, 0, 0, 1 ] );
 *
@@ -37,12 +47,9 @@
 * var bool = it2.next().done;
 * // returns true
 */
-
-// MODULES //
-
-var iterAdvance = require( './main.js' );
+declare function iterAdvance( iterator: Iterator, n?: number ): Iterator;
 
 
 // EXPORTS //
 
-module.exports = iterAdvance;
+export = iterAdvance;
