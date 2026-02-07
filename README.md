@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import iterAdvance from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-advance@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/iter-advance/tags). For example,
+
+```javascript
 import iterAdvance from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-advance@v0.2.3-esm/index.mjs';
 ```
 
@@ -146,7 +151,7 @@ bool = it.next().done;
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-iter-randu@esm/index.mjs';
 import iterLength from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-length@esm/index.mjs';
-import iterAdvance from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-advance@v0.2.3-esm/index.mjs';
+import iterAdvance from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-advance@esm/index.mjs';
 
 // Create an iterator which generates uniformly distributed pseudorandom numbers:
 var opts = {
